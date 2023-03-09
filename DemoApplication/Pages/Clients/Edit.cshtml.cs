@@ -94,7 +94,7 @@ namespace DemoApplication.Pages.Clients
                 return;
 
             }
-            editMessage = "Succesfully Edited " + clientInfo.name;
+           // editMessage = "Succesfully Edited " + clientInfo.name;
             Response.Redirect("/Clients/Index");
 
         }
